@@ -207,24 +207,23 @@ img{
 }
 
 /* ABOUT */
-.about__container{
+.about__container {
     justify-items: center;
-    row-gap: 2rem;
-    text-align: center;
 }
-.about__img{
+.about__img {
     display: flex;
     justify-content: center;
-    padding-top: 1rem;
-    width: 120px;
-    height: 120px;
+    align-items: center;
     background-color: var(--first-color);
     border-radius: 50%;
     overflow: hidden;
 }
-.about__img img{
-    width: 100px;
-}
+.about__img img {
+    width: 170%;
+    height: 170%;
+    object-fit: cover;
+    overflow: initial;
+} 
 .about__subtitle{
     font-size: var(--h2-font-size);
     color: var(--first-color);
