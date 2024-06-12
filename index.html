@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- BOX ICONS -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Joe's Responsive Portfolio</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__my_name">Joe Al Sokhen</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#jsd" class="nav__link">Job Seeking Doc.</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!-- Home -->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <h1 class="home__title"><span>Hi</span><br>There.</h1>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt'></i>Scroll down</a>
+                </div>
+
+                <!-- broken -->
+                <!-- <img src="assets/images/image.jpg" alt="" class="home__img"> -->
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/images/pp.jpg" alt="Profile Image">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'm Joe Al Sokhen</h2>
+                    <span class="about__profession">Computer Science Student</span>
+                    <p class="about__text">Currently doing my 2nd year in AUST Achrafieh, Passionately building
+                        expertise in
+                        cybersecurity & programming, Ex Lebanese Army Sergeant | Ex Salesman | Tech Geek |
+                        Open-source enthusiast | Lifelong learner.</p>
+
+                    <div class="about__social">
+                        <a href="https://www.instagram.com/xseast/" class="about__social-icon">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                        <a href="https://x.com/joesokhen" class="about__social-icon">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/joesokhen" class="about__social-icon">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                        <a href="https://www.github.com/joesokhen" class="about__social-icon">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Job Seeking Documents -->
+        <section class="jsd section" id="jsd">
+            <h2 class="section-title">Job Seeking Documents</h2>
+            <div class="about__container bd-grid">
+                <!-- <div class="about__img"> -->
+                    <div class="jsd__cover-letter">
+                        <h3 class="jsd__title__cover-letter">Cover Letter</h3>
+                        <p class="jsd__subtitle__cover-letter">Dear Hiring Manager,<br>
+    
+                            I hope this email finds you well. I am writing to express my interest in a developer position at
+                            your company. With a strong background in software troubleshooting and a passion for solving complex
+                            technical issues, I am excited about the opportunity to contribute my skills into your business.
+    
+                            My expertise lies in diagnosing and resolving software-related problems across various
+                            platforms, including Windows, macOS, and Linux which is the result of being in this field for a generous
+                            amount of time for more than 9 years. I excel at addressing software conflicts, compatibility
+                            issues, and performance bottlenecks. Additionally, I understand the importance of excellent
+                            customer service and the need for resolving issues on the spot, whether handling a novice
+                            customer or a tech-savvy individual. I prioritize clear communication and empathy, ensuring
+                            overall customer satisfaction.
+    
+                            In a fast-paced environment like Atlas Computer, adaptability is crucial. I thrive under
+                            pressure and am eager to learn new technologies and tools. Staying up-to-date with industry
+                            trends allows me to provide effective solutions to end-users. Having worked in both small
+                            and large teams, I appreciate the value of collaboration. Diverse perspectives lead to
+                            innovative problem-solving, and I am committed to supporting my colleagues and contributing
+                            to a positive work environment. <br><br>
+    
+                            Please find my resume attached, and feel free to contact me at joesokhen@proton.com to discuss
+                            how my skills align with your team’s needs. <br>
+    
+                            Thank you for considering my application. I look forward to the opportunity to further discuss
+                            my qualifications. <br><br>
+    
+                            Sincerely,<br>
+                            Joe Al Sokhen</p>
+                    </div>
+                    <div class="jsd__cv">
+                        <h3 class="jsd__title__cv">CV</h3>
+                        <embed class="jsd__embed__cv" src="assets/joe_cv.pdf" #toolbar="1" width="400" height="500"/>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+                              </svg>
+                              <a class="btn content-download button-main button-scheme" href="assets/joe_cv.pdf" download="cv">Download CV</a>
+                        </div>
+                    </div>
+
+            </div>
+        </section>
+
+
+        <!-- Skills -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Programming Language</h3>
+                    <span class="skills__name">Flutter</span>
+                    <span class="skills__name">Python</span>
+                    <span class="skills__name">Django</span>
+                    <span class="skills__name">HTML, CSS, SASS</span>
+
+                    <h3 class="skills__subtitle">Soft Skills</h3>
+                    <span class="skills__name">Git</span>
+                    <span class="skills__name">Data Recovery</span>
+                    <span class="skills__name">Cybersecurity</span>
+                    <span class="skills__name">Operating Systems Basics</span>
+                </div>
+
+                <div class="skills__img">
+                    <img src="assets/images/skill.jpg" alt="Skills Image" />
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+        
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">Mail Box</h3>
+                    <a href="mailto:joesokhen@proton.me" class="contact__text">joesokhen@proton.me</a>
+        
+                    <h3 class="contact__subtitle">Located In:</h3>
+                    <span class="contact__text">Beirut, Lebanon</span>
+                </div>
+        
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">PHONE</h3>
+                    <span class="contact__text">Hidden</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Needed to fix white toggle not appearing under
+         the last item title in the navbar -->
+        <section class=" section" id=""></section>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__data">
+                <h2 class="footer__title">Joe Al Sokhen</h2>
+                <p class="footer__text">I'm Joe, and this is my personal portfolio website.</p>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">Explore</h2>
+                <ul>
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#about" class="footer__link">About</a></li>
+                    <li><a href="#jsd" class="footer__link">Job Seeking Documents</a></li>
+                    <li><a href="#skills" class="footer__link">Skills</a></li>
+                    <li><a href="#contact" class="footer__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">Follow Me</h2>
+                <a href="https://www.instagram.com/xseast/" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                <a href="https://x.com/joesokhen" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.linkedin.com/in/joesokhen" class="footer__social"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://www.github.com/joesokhen" class="footer__social"><i class='bx bxl-github'></i></a>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script> <!-- Use your actual JS file path -->
+</body>
+
+</html>
