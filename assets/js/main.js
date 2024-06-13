@@ -65,7 +65,7 @@ sr.reveal('.about__social-icon', {delay: 600, interval: 200})
 sr.reveal('.jsd__title__cover-letter', {delay: 150});
 sr.reveal('.jsd__subtitle__cover-letter', {delay: 400});
 sr.reveal('.jsd__title__cv', {delay: 600});
-sr.reveal('.jsd__embed__cv', { delay: 700});
+sr.reveal('.jsd__dw_btn', { delay: 700});
 
 // Scroll 'Skills'
 sr.reveal('.skills__subtitle', {})

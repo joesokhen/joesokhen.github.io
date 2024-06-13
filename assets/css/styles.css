@@ -352,19 +352,28 @@ img {
     font-family: "Space Mono", monospace;
     font-weight: 400;
     font-style: normal;
-    display: flex;
-    justify-content: space-between;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.jsd__title__cover-letter {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .jsd__cover-letter {
     padding: 30px;
 }
 
-.jsd__cv {
-    padding: 10px;
+.jsd__title__cv {
+    text-align: center;
+}
+
+.jsd__dw_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* SKILLS */
