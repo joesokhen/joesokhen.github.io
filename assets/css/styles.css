@@ -316,8 +316,8 @@ img {
 }
 
 .about__img img {
-    width: 170%;
-    height: 170%;
+    /* width: 170%;
+    height: 170%; */
     object-fit: cover;
     overflow: initial;
 }
@@ -563,7 +563,7 @@ img {
     }
 
     .about__img img {
-        width: 165px;
+        /* width: 165px; */
     }
 
     .skills__container {
