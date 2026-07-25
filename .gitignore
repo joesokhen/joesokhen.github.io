@@ -1,0 +1,10 @@
+# macOS metadata
+.DS_Store
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+
+# Private source resumes. Only the redacted PDF in assets is public.
+cv/
